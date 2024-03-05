@@ -1,6 +1,6 @@
 import ballerina/http;
 
-configurable int port = ?;
+configurable int port = 9000;
 
 # A service representing a network-accessible API
 # bound to port `9090`.
